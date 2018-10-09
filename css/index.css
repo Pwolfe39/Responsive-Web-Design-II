@@ -73,24 +73,24 @@ h2, h3, h4, h5 {
     margin: 0 auto;
 }
 
-
 .container-one {
     display: flex;
     justify-content: center;
-    padding-bottom: 70px
 }
+
 .navigation {
-    width: 1100px;
+    width: 52%;
     height: 60px;
     padding-top: 20px;
     background-color: #88B9DF;
     border: 1px solid #000B1B;
     position: fixed;
-    z-index: 1;
+   
 }
 
 a {
-    margin-left: 77px;
+    padding-left: 45px;
+    
     text-decoration: none;
     color: black;
 }
@@ -101,55 +101,59 @@ a {
     position: absolute;
 }
 
+.header-one {
+    width: 81%;
+    padding-bottom: 60px;
+    
+}
+
 .header-one-lower{
     display: flex;
-    flex-direction: row;
-    margin-top: 100px;
-
+    justify-content: space-between;
+    margin-top: 150px;
+    
 }
 
 .h1-container  {
     font-size: 80px;
-    margin-left: 140px;
+    margin-left: 0px;
+
 }
 
 .button-header {
-    width: 10%;
-    height: 30px;
     position: relative;
     margin-top: 300px;
 
 }
 
 .span1{
+    margin-left: 120px;
     
-    
+}
+
+.span2 {
+    margin-left: 20px;
 }
 
 .img-container {
-    
+    margin-left: 80px;
     
 }
-*/
 
-/*
+
+
 
 .section-one {
     width: 1100px;
     margin: 0 auto;
     display: flex;
 }
-*/
-/*
+
 
 .div-p-h3 {
-    padding-left: 6px;
-    margin-top: 40px;
+    width: 40%;
+    margin-top: 20px;
 }
-
-*/
-
-/*
 
 .section-two {
     display: flex;
@@ -157,36 +161,28 @@ a {
     margin-top: 40px;
 }
 
-.middle-img {
-    width: 1100px;
-}
+
 
 .section-three {
     display: flex;
-    margin: 0 auto;
     border-bottom: 1px solid black;
     justify-content: center;
-    width: 1100px;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 25px;
+    padding-bottom: 30px;
+    padding-right: 10px;
 }
 
-*/
-/*
-
 .address {
-    position: relative;
     width: 200px;
-    left: 400px;
-    top: 40px;
+    margin-top: 25px;
+    
 
 }
 
 .copyright {
     margin: 0 auto;
     width: 213px;
-    padding-bottom: 50px
-
+    margin-top: 40px;
 }
 
 
